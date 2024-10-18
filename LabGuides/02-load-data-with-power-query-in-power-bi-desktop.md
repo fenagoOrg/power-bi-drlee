@@ -19,6 +19,7 @@ In this lab you learn how to:
 <h4><span style="color:red;">Important! Make sure that you have downloaded the datasets before starting the lab.</span></h4>
 
 
+
 ### **Lab story**
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
@@ -57,8 +58,7 @@ In this task you will setup the environment for the lab.
 
  To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
-    ![Picture 8](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
-	
+![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/shortcut.jpg?raw=true "9")
 
 If you do not find the shortcut. Search "PowerBI" in the Taskbar as shown in the below images.
 
@@ -106,6 +106,7 @@ We shall use these files for the upcoming lab tasks.
 6. Save the Power BI Desktop file.
 
 Click `ctrl + s` on your keyboard , name your file as Lab1 and click on **save** option to save the file in your desired location.
+
 
 > If you intend to start the next lab, leave Power BI Desktop open.
 
