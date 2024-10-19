@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Prepare Data in Power BI Desktop'
-    module: 'Module 2 - Get Data in Power BI'
+    module: 'Module 2 - Clean And Transform The Data Using Power Query Editor In Power BI'
 ---
 
 # **Prepare Data in Power BI Desktop**
@@ -14,26 +14,22 @@ In this lab you learn how to:
 
 - Open Power BI Desktop
 
-- Set Power BI Desktop options
-
 - Connect to source data
-
-- Preview source data
 
 - Use data preview techniques to better understand the data
 
-<h4><span style="color:red;">Important! Make sure that you have copied **DA100** folder from `Desktop/power-bi-next-level` folder into D:\ drive before starting the lab.</span></h4>
+- Use data cleaning and transforming tools to prepare the data in Power Query Editor
 
-![](./Linked_image_Files/copy.png)
+<h4><span style="color:red;">Important! Make sure that you have downloaded the datasets before starting the lab.</span></h4>
 
 
 ### **Lab story**
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
-1. **Prepare Data in Power BI Desktop**
+1. Load Data in Power BI Desktop
 
-2. Load Data in Power BI Desktop
+2. **Prepare Data in Power BI Desktop**
 
 3. Model Data in Power BI Desktop, Part 1
 
@@ -55,31 +51,33 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 12. Enforce Row-Level Security
 
+> As we have loaded files from our previous lab(Lab 1), we can start with data preparation in the current lab.
 ## **Exercise 1: Prepare Data**
 
-In this exercise you will create eight Power BI Desktop queries. Six queries will source data from SQL Server, and two from CSV files.
+In this exercise you will explore power query editor that helps us clean and transform the data using specialised tools.
 
-### **Task 1: Save the Power BI Desktop file**
+### **Task 1: Transform Data**
 
-In this task you will first save the Power BI Desktop file.
+In this task you will explore power query editor by clicking on transform data option
 
-1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
- 	![Picture 2](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image1.png)
+1. Click on **Transform Data** option on the taskbar.
 
-1. Click **New** > **Report**:
+ ![1](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/transformontaskbar.jpg?raw=true "1")
 
-	![](./Linked_image_Files/new.png)
+You will see a new window that is indeed our power query editor. All the data cleaning steps will be done in that window.
 
-1. To save the file, click the **File** ribbon tab to open the backstage view.
+### **Task 2: Power Query Editor**
 
-1. Select **Save**.
+Once you are landed on Power Query Editor. Its time to exlore our data cleaning tools
 
- 	![Picture 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
+#### **1. Column Distribution and Column Profiling**
 
-1. In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
+In the taskbar -> View -> **Column Distribution**
 
-1. In the **File Name** box, enter **Sales Analysis**.
+![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/columndist.jpg?raw=true "2")
+
+
 
  	![Picture 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
