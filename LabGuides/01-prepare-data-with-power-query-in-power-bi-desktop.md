@@ -16,7 +16,7 @@ In this lab you learn how to:
 
 - Connect to source data
 
-- Use data preview techniques to better understand the data
+- Use data preview techniques to better understand the data by data profiling tools
 
 - Use data cleaning and transforming tools to prepare the data in Power Query Editor
 
@@ -69,288 +69,86 @@ You will see a new window that is indeed our power query editor. All the data cl
 
 ### **Task 2: Power Query Editor**
 
-Once you are landed on Power Query Editor. Its time to exlore our data cleaning tools
+Once you are landed on Power Query Editor. You will find the table you have imported earlier, below the table you shall find the overall contents of the table(i.e count of rows and columns)
 
-#### **1. Column Distribution and Column Profiling**
+![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/contentsinthetable.jpg?raw=true "9")
 
-In the taskbar -> View -> **Column Distribution**
+Lets explore more intresting data manipulation tools.!
+
+#### **1. Column Distribution, Column Profiling and Column Quality**
+
+- **Column Distribution:-**
+This feature provides a set of visuals underneath the names of the columns that showcase the frequency and distribution of the values in each of the columns. The data in these visualizations is sorted in descending order from the value with the highest frequency.
+
+To view this feature in Power Query, follow the below steps.
+
+In the taskbar -> View -> check the **Column Distribution** option
 
 ![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/columndist.jpg?raw=true "2")
 
+![3](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/understandcolumndist.jpg?raw=true "3")
 
+- **Column Profiling:-**
+This feature provides a more in-depth look at the data in a column. Apart from the column distribution chart, it contains a column statistics chart. 
 
- 	![Picture 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
+To view this feature in Power Query, follow the below steps.
 
-1. Click **Save**.
+In the taskbar -> View -> check the **Column Profiling** option
 
-	![Picture 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
+![4](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/columnprofile.jpg?raw=true "4")
 
-	Tip: You can also save the file by click the **Save** icon located at the top-left.
+![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/undestandprofiling.jpg?raw=true "5")
 
-	![Picture 18](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image6.png)
+- **Column Quality:-**
+The column quality feature labels values in rows in five categories:
 
-### **Task 2: Set Power BI Desktop options**
+1. **Valid**, shown in green.
 
-In this task you will set Power BI Desktop options.
+2. **Error**, shown in red.
 
-1. In Power BI Desktop, click the **File** ribbon tab to open the backstage view.
+3. **Empty**, shown in dark grey.
 
-1. At the left, select **Options and Settings**, and then select **Options**.
+4. **Unknown**, shown in dashed green. Indicates when there are errors in a column, the quality of the remaining data is unknown.
 
- 	![Picture 1](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image7.png)
+5. **Unexpected error**, shown in dashed red.
 
-1. In the **Options** window, at the left, in the **Current File** group, select **Data Load**.
+These indicators are displayed directly underneath the name of the column as part of a small bar chart.
 
-    ![Picture 5](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image8.png)
+To view this feature in Power Query, follow the below steps.
 
-    The **Data Load** settings for the current file allow setting options that determine default behaviors when modeling.
+In the taskbar -> View -> check the **Column Quality** option
 
-1. In the **Relationships** group, uncheck the two options that are already checked.
+![6](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/columnquality.jpg?raw=true "6")
 
-	![Picture 7](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image9.png)
+![7](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/uderstandquality.jpg?raw=true "7")
 
-    While having these two options enabled can be helpful when developing a data model, you disabled them earlier to support the lab experience. When you create relationships in the **Load Data in Power BI Desktop** lab, you’ll learn why you are adding each one.
 
-1. Click **OK**.
 
-    ![Picture 9](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image10.png)
+#### 2. Manipulating The Data(Removing Columns, Adjusting Datatypes, Replacing values)
 
-1. Save the Power BI Desktop file.
+**Checking Datatypes:-**
+Its always important to check datatypes when the data is loaded. Unusual datatypes will result in abnormal readings in visualization.
+So it's important and useful to use the correct data types for columns.
 
-### **Task 3: Get data from SQL Server**
+To check , you can click on the **datatype symbol** beside the column name and adjust it if needed as per the data. Else, we have nothing to worry about!
 
-In this task you will create queries based on SQL Server tables.
+![8](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/datatypes.jpg?raw=true "8")
 
-1. On the **Home** ribbon tab, from inside the **Data** group, click **SQL Server**.
 
-	![Picture 19](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image11.png)
+**Removing Columns:-**
+If your query has columns you don't need, you can remove them. You can select one or more columns, and then either remove the selected ones, or remove the unselected ones, that is the other columns.
 
-2. In the **SQL Server Database** window, in the **Server** box, enter **localhost**.
+The easiest way is to just **right click** on the column and choose **Remove**. Lets remove the column `Title` as it has incomplete rows and is not bringing any insights to the table,
 
-	![Picture 21](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image12.png)
+![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/removecolumn.jpg?raw=true "9")
 
-	![Picture](Linked_image_Files/login.png)
+Similarly, by looking at the perticular table we have certain columns that are unnecessary and has blank rows in the columns. We can remove them as well.
 
-	![Picture](Linked_image_Files/login2.png)
+Remove the columns`(Middlename, Suffix, Addressline2)`
 
-	In this lab you’ll connect to the SQL Server database by using **localhost**. This isn’t a recommended practice when creating your own solutions. It’s because gateway data sources cannot resolve **localhost**.
+**Replace Values:-**
 
-3. Click **OK**.
 
-	![Picture 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image13.png)
-
-4. In the **Navigator** window, at the left, expand the **AdventureWorksDW2020** database.
-
-	The **AdventureWorksDW2020** database is based on the **AdventureWorksDW2017** sample database. It has been modified to support the learning objectives of the course labs.
-
-	![Picture 28](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image17.png)
-
-5. Select—but don’t check—the **DimEmployee** table.
-
-	![Picture 29](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image18.png)
-
-6. In the right pane, notice a preview of the table data.
-
-	The preview data allows you to determine the columns and a sample of rows.
-
-7. To create queries, select the checkbox next to the following six tables:
-
-	- DimEmployee
-
-	- DimEmployeeSalesTerritory
-
-	- DimProduct
-
-	- DimReseller
-
-	- DimSalesTerritory
-
-	- FactResellerSales
-
-8. To apply transformations to the data of the selected tables, click **Transform Data**.
-
-	You won’t be transforming the data in this lab. The objectives of this lab focus on exploring and profiling the data in the **Power Query Editor** window.
-
-	![Picture 30](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image19.png)
-
-### **Task 4: Preview SQL Server queries**
-
-In this task you will preview the data of the SQL Server queries. First, you will learn relevant information about the data. You will also use column quality, column distribution, and column profile tools to understand the data and to assess data quality.
-
-1. In the **Power Query Editor** window, at the left, notice the **Queries** pane.
-
-	![Picture 31](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image20.png)
-
-	The **Queries** pane contains one query for each table you checked.
-
-2. Select the first query—**DimEmployee**.
-
-	![Picture 33](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image21.png)
-
-	The **DimEmployee** table in the SQL Server database stores one row for each employee. A subset of the rows from this table represents the salespeople, which will be relevant to the model you’ll develop.
-
-3. At the bottom left, in the status bar, notice the table statistics—the table has 33 columns, and 296 rows.
-
-	![Picture 36](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image22.png)
-
-4. In the data preview pane, scroll horizontally to review all columns.
-
-5. Notice that the last five columns contain **Table** or **Value** links.
-
-	These five columns represent relationships to other tables in the database. They can be used to join tables together. You’ll join tables in the **Load Data in Power BI Desktop** lab.
-
-6. To assess column quality, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Quality**.
-
-	![Picture 35](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image23.png)
-
-	The column quality feature allows you to easily determine the percentage of valid, error, or empty values found in columns.
-
-7. For the **Position** column (sixth last column), notice that 94% of rows are empty (null).
-
-	![Picture 38](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image24.png)
-
-8. To assess column distribution, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Distribution**.
-
-	![Picture 40](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image25.png)
-
-9. Review the **Position** column again, and notice that there are four distinct values, and one unique value.
-
-10. Review the column distribution for the **EmployeeKey** (first) column—there are 296 distinct values, and 296 unique values.
-
-	![Picture 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
-
-	When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you will do in the **Model Data in Power BI Desktop, Part 1** lab.
-
-11. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
-
-	![Picture 44](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image27.png)
-
-	The **DimEmployeeSalesTerritory** table stores one row for each employee and the sales territory regions they manage. The table supports relating many regions to a single employee. Some employees manage one, two, or possibly more regions. When you model this data, you’ll need to define a many-to-many relationship, which you’ll do in the **Model Data in Power BI Desktop, Part 2** lab.
-
-12. In the **Queries** pane, select the **DimProduct** query.
-
-	![Picture 46](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image28.png)
-
-	The **DimProduct** table contains one row per product sold by the company.
-
-13. Horizontally scroll to reveal the last columns.
-
-14. Notice the **DimProductSubcategory** column.
-
-	When you add transformations to this query in the **Load Data in Power BI Desktop** lab, you’ll use the **DimProductSubcategory** column to join tables.
-
-15. In the **Queries** pane, select the **DimReseller** query.
-
-	![Picture 49](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image29.png)
-
-	The **DimReseller** table contains one row per reseller. Resellers sell, distribute, or value add to the Adventure Works products.
-
-16. To view column values, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Profile**.
-
-	![Picture 41](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image30.png)
-
-17. Select the **BusinessType** column header.
-
-18. Notice the new pane beneath the data preview pane.
-
-19. Review the column statistics and value distribution in the data preview pane.
-
-20. Notice the data quality issue: there are two labels for warehouse (**Warehouse**, and the misspelled **Ware House**).
-
-	![Picture 51](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image31.png)
-
-21. Hover the cursor over the **Ware House** bar, and notice that there are five rows with this value.
-
-    You’ll apply a transformation to relabel these five rows in the **Load Data in Power BI Desktop** lab.
-
-22. In the **Queries** pane, select the **DimSalesTerritory** query.
-
-	![Picture 52](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image32.png)
-
-	The **DimSalesTerritory** table contains one row per sales region, including **Corporate HQ** (headquarters). Regions are assigned to a country, and countries are assigned to groups. In the **Model Data in Power BI Desktop, Part 1** lab, you’ll create a hierarchy to support analysis at region, country, or group level.
-
-23. In the **Queries** pane, select the **FactResellerSales** query.
-
-	![Picture 54](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image33.png)
-
-	The **FactResellerSales** table contains one row per sales order line—a sales order contains one or more line items.
-
-24. Review the column quality for the **TotalProductCost** column, and notice that 8% of the rows are empty.
-
-	![Picture 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image34.png)
-
-	Missing **TotalProductCost** column values is a data quality issue. To address the issue, in the **Load Data in Power BI Desktop** lab, you’ll apply transformations to fill in missing values by using the product standard cost, which is stored in the related **DimProduct** table.
-
-### **Task 5: Get data from a CSV file**
-
-In this task you will create a query based on a CSV file.
-
-1. To add a new query, in the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **New Query** group, click the **New Source** down-arrow, and then select **Text/CSV**.
-
-	![Picture 70](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image35.png)
-
-2. In the **Open** window, navigate to the **D:\DA100\Resources** folder, and select the **ResellerSalesTargets.csv** file.
-
-3. Click **Open**.
-
-4. In the **ResellerSalesTargets.csv** window, review the preview data.
-
-5. Click **OK**.
-
-	![Picture 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image36.png)
-
-  
-‎ 
-
-6. In the **Queries** pane, notice the addition of the **ResellerSalesTargets** query.
-
-	![Picture 72](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image37.png)
-
-	The **ResellerSalesTargets** CSV file contains one row per salesperson, per year. Each row records 12 monthly sales targets (expressed in thousands). Note that the business year for the Adventure Works company commences on July 1.
-
-7. Notice that no column contains empty values.
-
-	When there isn’t a monthly sales target, a hyphen character is stored instead.
-
-8. Review the icons in each column header, to the left of the column name.
-
-	![Picture 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
-
-	The icons represent the column data type. **123** is whole number, and **ABC** is text.
-
-	You’ll apply many transformations to achieve a different shaped result consisting of only three columns: **Date**, **EmployeeKey**, and **TargetAmount** in the **Load Data in Power BI Desktop** lab.
-
-### **Task 6: Get additional data from a CSV file**
-
-In this task you will create an additional query based on a different CSV file.
-
-1. Use the steps in the previous task to create a query based on the **D:\DA100\Resources\ColorFormats.csv** file.
-
-	![Picture 75](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image39.png)
-
-	The **ColorFormats** CSV file contains one row per product color. Each row records the HEX codes to format background and font colors. You’ll integrate this data with the **DimProduct** query data in the **Load Data in Power BI Desktop** lab.
-
-### **Task 7: Finish up**
-
-In this task you will complete the lab.
-
-1. On the **View** ribbon tab, from inside the **Data Preview** group, uncheck the three data preview options that were previously enabled in this lab:
-
-	- Column quality
-
-	- Column distribution
-
-	- Column profile
-
-	![Picture 76](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image40.png)
-
-2. To save the Power BI Desktop file, in the **Power Query Editor** window, on the **File** backstage view, select **Save**.
-
-	![Picture 77](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image41.png)
-
-3. When prompted to apply the queries, click **Apply Later**.
-
-	![Picture 86](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image42.png)
 
 	Applying the queries will load their data to the data model. You’re not ready to do that, as there are many transformations that must be applied first.
 
