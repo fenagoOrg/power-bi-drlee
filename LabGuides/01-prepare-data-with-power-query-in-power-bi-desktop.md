@@ -6,7 +6,7 @@ lab:
 
 # **Prepare Data in Power BI Desktop**
 
-**The estimated time to complete the lab is 45 minutes**
+**The estimated time to complete the lab is 35 minutes**
 
 In this lab you commence the development of a Power BI Desktop solution for the Adventure Works company. It involves connecting to source data, previewing the data, and using data preview techniques to understand the characteristics and quality of the source data.
 
@@ -155,11 +155,24 @@ In our case, lets replace null values with 0 in the column(`SalesQuota`)
 
 ![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/replacevalues.jpg?raw=true "9")
 
-
 Type **null** and **0** in the respective fields. 
 
 ![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/replacenullwith0.jpg?raw=true "10")
 
+------------
+
+
+As you keep doing these operations, you will see the changes refelecting under **Applied Steps**.
+
+> Tip:- You can undo steps by clicking on the cross mark beside the steps
+
+![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/appliedsteps.jpg?raw=true "11")
+
+Do not forget to click on **Close&Apply** option once the changes are done.
+
+This will navigate you back to report view.
+
+![12](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/closeandaplly.jpg?raw=true "12")
 
 
 > If you intend to start the next lab, leave Power BI Desktop open.
