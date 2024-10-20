@@ -147,11 +147,19 @@ Similarly, by looking at the perticular table we have certain columns that are u
 Remove the columns`(Middlename, Suffix, Addressline2)`
 
 **Replace Values:-**
+In Power Query, you can replace one value with another value in a selected column. You can replace specific values or the whole value in a cell. Replacing values in a query does not edit the external data source in any way.  
+
+To do this, right click on the column name that you wish to replace values.
+
+In our case, lets replace null values with 0 in the column(`SalesQuota`)
+
+![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/replacevalues.jpg?raw=true "9")
+
+
+Type **null** and **0** in the respective fields. 
+
+![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/replacenullwith0.jpg?raw=true "10")
 
 
 
-	Applying the queries will load their data to the data model. You’re not ready to do that, as there are many transformations that must be applied first.
-
-4. If you intend to start the next lab, leave Power BI Desktop open.
-
-	You’ll apply various transformations to the queries and then apply the queries to load them to the data model in the **Load Data in Power BI Desktop** lab.
+> If you intend to start the next lab, leave Power BI Desktop open.
