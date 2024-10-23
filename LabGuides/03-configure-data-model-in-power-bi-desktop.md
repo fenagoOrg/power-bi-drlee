@@ -13,26 +13,25 @@ In this lab you will commence developing the data model. It will involve creatin
 
 In this lab you learn how to:
 
+- Implement more data manipulation techniques
+
 - Create model relationships
 
 - Configure table and column properties
 
 - Create hierarchies
 
-- Create quick measures
 
+<h4><span style="color:red;">Important! Make sure that you have downloaded the datasets before starting the lab.</span></h4>
 
-<h4><span style="color:red;">Important! Make sure that you have copied **DA100** folder from `Desktop/power-bi-next-level` folder into D:\ drive before starting the lab.</span></h4>
-
-![](./Linked_image_Files/copy.png)
 
 ### **Lab story**
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
-1. Prepare Data in Power BI Desktop
+1. Load Data in Power BI Desktop
 
-2. Load Data in Power BI Desktop
+2. Prepare Data in Power BI Desktop
 
 3. **Model Data in Power BI Desktop, Part 1**
 
@@ -54,66 +53,61 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 12. Enforce Row-Level Security
 
-## **Exercise 1: Create Model Relationships**
+## **Exercise 1: Implement Data Manipulation Techniques**
 
-In this exercise you will create model relationships.
+In this exercise you will explore more options through data manipulation in power query editor.
 
 ### **Task 1: Get started**
 
 In this task you will setup the environment for the lab.
 
-*Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
+*Important: This is a new dataset, please make sure you import "Sample - Superstore as it is used in further labs as well.*
 
 1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
     ![Picture 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
 
+2. Import Sample-Superstore dataset in PowerBI
 
-1. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
+**Get Data -> Excel Workbook**
 
-1. Select **Open Report**.
+3. Choose tables `Customers, Orders, Returns,Products and Region`
+![1](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/loadtablesSS.jpg?raw=true "1")
+4. Click on **Transform Data**
 
- 	![Picture 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image3.png)
+> This might take few minutes to load depending upon the operating system and its version.
 
-1. Click **Browse Reports**.
+### **Task 2: Manipulate the data in power query**
 
- 	![Picture 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
+In this task you will do some data corrections to model the data correctly. 
 
-1. In the **Open** window, navigate to the **D:\DA100\Labs\03-configure-data-model-in-power-bi-desktop\Starter** folder.
+1. In the power query editor you will find all the tables imported sucessfully.
+2. In Products table, You observe the first row is having column names, we should move them to headers.
+3. Click on the option - `Use first row as headers`
+![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/observerowheaders.jpg?raw=true "2")
 
-1. Select the **Sales Analysis** file.
+4. This will configure the headers for all the columns.
 
-1. Click **Open**.
+> Similarlly, configure the headers for the Returns Table
 
- 	![Picture 7](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image5.png)
+5. In Products table there are lots of empty columns. Remove them by holding `ctrl` button and right click on the null columns -> remove columns
 
-1. Close any informational windows that may open.
+![4](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/removecolumn.jpg?raw=true "4")
 
-1. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
+> Similarlly, remove the null columns in Region table
 
-1. Select **Save As**.
+6. Choose Close&Apply option.
+7. Navigate to Model view tab
+![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/modelview.jpg?raw=true "5")
+8. You will see the tables are not connected to each other. We shall create relationships between them for acurate data flow.
+9. You can click on **Manage Relationships -> Autodetect**
+In most cases it will autodetect relations, however if there are inconsistencies in the data it will not create any of them.
+10. You can also drag and drop columns 
 
- 	![Picture 5](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image6.png)
 
-1. If prompted to apply changes, click **Apply**.
 
- 	![Picture 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
 
-1. In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
 
-1. Click **Save**.
-
- 	![Picture 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
-
-### **Task 2: Create model relationships**
-
-In this task you will create model relationships.
-
-1. In Power BI Desktop, at the left, click the **Model** view icon.
-
-	![Picture 1](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image9.png)
-
-2. If you do not see all seven tables, scroll horizontally to the right, and then drag and arrange the tables more closely together so they can all be seen at the same time.
 
 	*Tip: You can also use the zoom control located at the bottom of the window.*
 
