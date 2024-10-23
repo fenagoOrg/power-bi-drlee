@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Model Data in Power BI Desktop, Part 1'
-    module: 'Module 4 - Design a Data Model in Power BI'
+    module: 'Module 3 - Design a Data Model in Power BI'
 ---
 
 
@@ -98,20 +98,50 @@ In this task you will do some data corrections to model the data correctly.
 
 6. Choose Close&Apply option.
 7. Navigate to Model view tab
+
 ![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/modelview.jpg?raw=true "5")
-8. You will see the tables are not connected to each other. We shall create relationships between them for acurate data flow.
+
+	*In Model view, it’s possible to view each table and relationships (connectors between tables).In most cases it will autodetect relations, however if there are inconsistencies in the data it will not create any of them.
+
 9. You can click on **Manage Relationships -> Autodetect**
-In most cases it will autodetect relations, however if there are inconsistencies in the data it will not create any of them.
-10. You can also drag and drop columns 
+
+10. You can also drag and drop columns between tables.
+Example:- CustomerId in Orders table WITH CustomerID to Customer table
+
+We get a cardinality error in our case. As there is still some incomplete data cleaning steps.
+
+> Cardinality:- Cardinality in Power BI is a mathematical term that describes the relationship between two tables in a data model. It defines how many unique values from one table are related to unique values in another table.
+
+To Avoid this error , you need to remove duplicates from our Dimentional tables
+The fact and dim tables in data can be classified as:
+- Orders(Fact Table)
+- Products(Dim Table)
+- Customers(Dim Table)
+- Region(Dim Table)
+- Returns(Dim table)
+
+> We should make sure that there are no duplicates in all the dimentional tables to avoid cardinality error.
+
+The relationship we are looking for the tables is  **one-to-many** 
+The relationships, the cross filter direction is always from the "one" side, and optionally from the "many" side (bi-directional).
 
 
+### **Task 3: Manipulate the data in power query (Remove Duplicates for Cardinality error)**
+
+1. Go to Transform data -> Select Customers table -> Right click on the CustomerID column -> Remove Duplicates.
+![7](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/removeduplicates.jpg?raw=true "7")
+
+> Similarlly remove duplicates from  other dimentional tables.
+
+2. Navigate back to Model view, Drag and drop CustomerId in Customers table WITH CustomerID to Orders table
+![8](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/cid.jpg?raw=true "8")
 
 
 
 
 	*Tip: You can also use the zoom control located at the bottom of the window.*
 
-	*In Model view, it’s possible to view each table and relationships (connectors between tables). Presently, there are no relationships because in the **Prepare Data in Power BI Desktop** lab, you disabled the data load relationship options.*
+
 
 3. To return to Report view, at the left, click the **Report** view icon.
 
