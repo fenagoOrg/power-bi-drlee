@@ -112,8 +112,17 @@ Example:- CustomerId in Orders table WITH CustomerID to Customer table
 
 > Cardinality:- Cardinality in Power BI is a mathematical term that describes the relationship between two tables in a data model. It defines how many unique values from one table are related to unique values in another table.
 
-To Avoid this error , you need to remove duplicates from our Dimentional tables
-The fact and dim tables in data can be classified as:
+To Avoid this error , you need to remove duplicates from our Dimentional tables as we are trying to build a star schema model for our project.
+
+> Star Schema:
+Star schema is a mature modeling approach widely adopted by relational data warehouses. It requires modelers to classify their model tables as either dimension or fact.
+
+> Dimension tables describe business entities—the things you model. Entities can include products, people, places, and concepts including time itself.A dimension table contains a key column (or columns) that acts as a unique identifier, and descriptive columns.
+
+> Fact tables store observations or events, and can be sales orders, stock balances, exchange rates, temperatures, etc. A fact table contains dimension key columns that relate to dimension tables, and numeric measure columns.
+
+
+The fact and dim tables in our data model can be classified as:
 - Orders(Fact Table)
 - Products(Dim Table)
 - Customers(Dim Table)
@@ -131,23 +140,28 @@ The relationships, the cross filter direction is always from the "one" side, and
 1. Go to Transform data -> Select Customers table -> Right click on the CustomerID column -> Remove Duplicates.
 ![7](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/removeduplicates.jpg?raw=true "7")
 
-> Similarlly remove duplicates from  other dimentional tables.
+**> Similarlly remove duplicates from  other dimentional tables.
+Once all the duplicates are removed from each of the dimentional tables. Do not forget to Close&Apply.**
 
-2. Navigate back to Model view, Drag and drop CustomerId in Customers table WITH CustomerID to Orders table
+
+2. Navigate back to Model View.
+Check if any changes has been applied to the tables. If you still cannot find any relationship between the tables, you can drag and drop the Respective keys to create a relation.
 ![8](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/cid.jpg?raw=true "8")
 
+Likewise, Drag and drop the Key Id's from dimentional table to factorial table.
+- OrderID in Orders table with OrderID in Returns table
+- ProductID in Products table with ProductID in Orders table
+- Region key in Region table with Regionkey in Orders table
 
-Once all the duplicates are removed from each of the dimentional tables. Do not forget to Close&Apply.
-
-3. Navigate back to Model View.
-Check if any changes has been applied to the tables. If you still cannot find any relationship between the tables, you can drag and drop the Respective keys to create a relation.
-
---------------Or------------
-
-Create a new relationship
-4. Click on Manage Relationships - New Relationship 
-
-	*Tip: You can also use the zoom control located at the bottom of the window.*
+![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/oid.jpg?raw=true "9")
+![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/pid.jpg?raw=true "10")
+![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/region.jpg?raw=true "11")
 
 
+This figure is called as "Star Schema". Where the fact table is our Orders in the table surrounded by dimentional tables making a proper data model figure.
+
+**Star Schema**
+![12](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/starschema.jpg?raw=true "12")
+
+We will look into creating manual relationships between the tables, creating hirarchies and look at table properties in the upcoming lab(3.2)
 
