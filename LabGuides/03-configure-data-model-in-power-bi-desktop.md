@@ -9,17 +9,16 @@ lab:
 
 **The estimated time to complete the lab is 1 hour**
 
-In this lab you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.
 
 In this lab you learn how to:
 
-- Implement more data manipulation techniques
+- Implement more data manipulation techniques.
 
-- Create model relationships
+- Deal with Cardinality error
 
-- Configure table and column properties
+- Create model relationships.
 
-- Create hierarchies
+- Build star schema
 
 
 <h4><span style="color:red;">Important! Make sure that you have downloaded the datasets before starting the lab.</span></h4>
