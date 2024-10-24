@@ -7,7 +7,7 @@ lab:
 
 # **Model Data in Power BI Desktop, Part 1**
 
-**The estimated time to complete the lab is 45 minutes**
+**The estimated time to complete the lab is 1 hour**
 
 In this lab you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.
 
