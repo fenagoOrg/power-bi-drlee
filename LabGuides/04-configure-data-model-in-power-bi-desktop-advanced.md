@@ -7,7 +7,7 @@ lab:
 
 # **Model Data in Power BI Desktop, Part 2**
 
-**The estimated time to complete the lab is 45 minutes**
+**The estimated time to complete the lab is 40 minutes**
 
 #### In this lab you learn how to:
 
@@ -17,8 +17,6 @@ lab:
 - Understand table properties.
 
 <h4><span style="color:red;">Important! Make sure that you are working on the previous lab(3.1) open before starting the lab.</span></h4>
-
-![](./Linked_image_Files/copy.png)
 
 ### **Lab story**
 
@@ -66,18 +64,34 @@ In this task you will setup the environment for the lab.
 
 WORK ON OPENING THE SAVED FILE
 
-### **Task 2: Create new relationship between Product table with Order Table **
+### ***Task 2: Create new relationship between Product table with Order Table***
 
 1. Go to Model view
 2. Click on Manage Relationships -> New Relationship.
 3. Select from table -> choose product table -> slect productid
 4. Click on To table ->choose orders table -> select productid
 5. Check the cardinality, the default is one to many along with cross filter direction "Single"
-6. Click on 'save"
+6. Click on "Save"
 
-After few seconds, you will observe a relation built from products table to orders table
+After few seconds, you will observe a relation built from products table to orders table..
+
+ 
+### ***Task 3: Setting data categories for Geogrpahical columns ***
+1. In model view, tap on data pane -> expand orders table -> tap on Region.
+2. In Properties pane, scroll down to Advanced section. When you expland it, click on the data category dropdown.
+3. Choose Country/Region option
+4. Notice the globe icon besdie Region column.
+
+You can add more data categories to all the other geographical columns(Region, County,States or Cities)
 
 
+### ***Task 3: Creating Hirarchy in Orders table***
+
+1.In Model View, right click on country column -> Click on create hirarchy
+2. In properties pane -> Under Hirarchy you will will country is selected and now we need to add more levels under it.
+3. Click the dropdown to add level and choose state.
+4. Click the dropdown to add level and choose city.
+5.Click on Apply Level Changes
 
 ### **Task 4: Finish up**
 
