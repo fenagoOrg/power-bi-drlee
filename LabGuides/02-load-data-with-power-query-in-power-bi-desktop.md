@@ -6,15 +6,13 @@ lab:
 
 # **Load Data in Power BI Desktop**
 
-**The estimated time to complete the lab is 10 minutes**
-
-In this lab you will explore Get Data options, the various sources that PowerBI offers us. In our case, we shall load excel files into PowerBI and view the tables to understand the data.
+**The estimated time to complete the lab is 5 -10 minutes**
 
 In this lab you learn how to:
 
 - Load data into PowerBI
 
-- Understand the tables in PowerBI interface
+- Observe the tables in PowerBI interface
 
 <h4><span style="color:red;">Important! Make sure that you have downloaded the datasets before starting the lab.</span></h4>
 
