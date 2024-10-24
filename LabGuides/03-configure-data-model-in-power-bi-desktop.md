@@ -107,11 +107,9 @@ In this task you will do some data corrections to model the data correctly.
 10. You can also drag and drop columns between tables.
 Example:- CustomerId in Orders table WITH CustomerID to Customer table
 
-**We get a cardinality error in our case. As there is still some incomplete data cleaning steps.**
+**We get a cardinality error in our case. As there is still some incomplete data cleaning steps.To Avoid this error , you need to remove duplicates from our Dimentional tables as we are trying to build a star schema model for our project.**
 
 > Cardinality:- Cardinality in Power BI is a mathematical term that describes the relationship between two tables in a data model. It defines how many unique values from one table are related to unique values in another table.
-
-To Avoid this error , you need to remove duplicates from our Dimentional tables as we are trying to build a star schema model for our project.
 
 > Star Schema:
 Star schema is a mature modeling approach widely adopted by relational data warehouses. It requires modelers to classify their model tables as either dimension or fact.
@@ -120,7 +118,6 @@ Star schema is a mature modeling approach widely adopted by relational data ware
 
 > Fact tables store observations or events, and can be sales orders, stock balances, exchange rates, temperatures, etc. A fact table contains dimension key columns that relate to dimension tables, and numeric measure columns.
 
-
 The fact and dim tables in our data model can be classified as:
 - Orders(Fact Table)
 - Products(Dim Table)
@@ -128,10 +125,10 @@ The fact and dim tables in our data model can be classified as:
 - Region(Dim Table)
 - Returns(Dim table)
 
-> We should make sure that there are no duplicates in all the dimentional tables to avoid cardinality error.
+**> We should make sure that there are no duplicates in all the dimentional tables to avoid cardinality error**.
 
 The relationship we are looking for the tables is  **one-to-many** 
-The relationships, the cross filter direction is always from the "one" side, and optionally from the "many" side (bi-directional).
+ A one-to-many relationship means that a single record in one table (the "one" side) can relate to multiple records in another table (the "many" side). For example, one customer can have multiple orders.
 
 
 ### **Task 3: Manipulate the data in power query (Remove Duplicates for Cardinality error)**
