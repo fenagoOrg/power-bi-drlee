@@ -59,6 +59,7 @@ In this task you will setup the environment for the lab.
 1. To open the previous Power BI Desktop file, click the **Open** option on the lest tab to open the backstage view.
 2. In the recent section choose your latest file that you have saved
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/open%20a%20saved%20file.jpg?raw=true "11")
+
 ![12](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/findfrom%20recent.jpg?raw=true "12")
 
 
@@ -71,6 +72,7 @@ In this task you will setup the environment for the lab.
 5. Check the cardinality, the default is one to many along with cross filter direction "Single"
 6. Click on "Save"
 ![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/new%20relationship.jpg?raw=true "2")
+
 ![3](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/relationprod-order.jpg?raw=true "3")
 
 
@@ -81,29 +83,35 @@ After few seconds, you will observe a relation built from products table to orde
 
  
 ### Task 3: Setting data categories for Geogrpahical columns
-1. In model view, tap on data pane -> expand orders table -> tap on Region.
-2. In Properties pane, scroll down to Advanced section. When you expand it, click on the data category dropdown.
-3. Choose Country/Region option
-4. Notice the globe icon besdie Region column.
+
+1. In model view, tap on data pane -> expand orders table -> tap on **Country**.
+2. In Properties pane, scroll down to Advanced section. When you expand it, click on the **Data Category** dropdown.
+![4](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/datacategory1.jpg?raw=true "4")
+3. Choose **Country/Region** option
+![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/datacategory2.jpg?raw=true "5")
+4. Notice the **globe icon** beside **Country** column.
+
 > You can add more data categories to all the other geographical columns(Region, County,States or Cities)
 
-![4](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/datacategory1.jpg?raw=true "4")
-![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/datacategory2.jpg?raw=true "5")
 ![6](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/globe.jpg?raw=true "6")
 
 
-### ***Task 3: Creating Hirarchy in Orders table***
+### ***Task 4: Creating Hirarchy in Orders table***
 
 1.In Model View, right click on country column -> Click on create hirarchy
-2. In properties pane -> Under Hirarchy you will will country is selected and now we need to add more levels under it.
+![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/created%20hirarcy.jpg?raw=true "9")
+
+2. In properties pane -> Under Hirarchy you will see country is selected and now we need to add more levels under it.
 3. Click the dropdown to add level and choose state.
 4. Click the dropdown to add level and choose city.
 5.Click on Apply Level Changes
-![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/created%20hirarcy.jpg?raw=true "9")
 ![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/applylevelchanges.jpg?raw=true "10")
+
+> You will find the complete hirarchy under "**Country Hirarchy**"
+
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/countryhirarchu.jpg?raw=true "11")
 
-### **Task 4: Finish up**
+### **Task 5: Finish up**
 
 In this task you will complete the lab.
 
