@@ -45,10 +45,6 @@ This lab is one of many in a series of labs that was designed as a complete stor
 11. Perform Data Analysis in Power BI Desktop
 
 
-## **Exercise 1: Build relationships manually between the fact and dimentional tables**
-
-
-
 ### **Task 1: Get started**
 
 In this task you will setup the environment for the lab.
@@ -60,11 +56,13 @@ In this task you will setup the environment for the lab.
  	![Picture 8](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image1.png)
 
 
-1. To open the previous Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
+1. To open the previous Power BI Desktop file, click the **Open** option on the lest tab to open the backstage view.
+2. In the recent section choose your latest file that you have saved
+![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/open%20a%20saved%20file.jpg?raw=true "11")
+![12](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/findfrom%20recent.jpg?raw=true "12")
 
-WORK ON OPENING THE SAVED FILE
 
-### ***Task 2: Create new relationship between Product table with Order Table***
+## Task 2: Create new relationship between Product table with Order Table
 
 1. Go to Model view
 2. Click on Manage Relationships -> New Relationship.
@@ -72,17 +70,26 @@ WORK ON OPENING THE SAVED FILE
 4. Click on To table ->choose orders table -> select productid
 5. Check the cardinality, the default is one to many along with cross filter direction "Single"
 6. Click on "Save"
+![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/new%20relationship.jpg?raw=true "2")
+![3](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/relationprod-order.jpg?raw=true "3")
+
 
 After few seconds, you will observe a relation built from products table to orders table..
 
+**STAR SCHEMA**
+![8](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/starschema.jpg?raw=true "8")
+
  
-### ***Task 3: Setting data categories for Geogrpahical columns ***
+### Task 3: Setting data categories for Geogrpahical columns
 1. In model view, tap on data pane -> expand orders table -> tap on Region.
-2. In Properties pane, scroll down to Advanced section. When you expland it, click on the data category dropdown.
+2. In Properties pane, scroll down to Advanced section. When you expand it, click on the data category dropdown.
 3. Choose Country/Region option
 4. Notice the globe icon besdie Region column.
+> You can add more data categories to all the other geographical columns(Region, County,States or Cities)
 
-You can add more data categories to all the other geographical columns(Region, County,States or Cities)
+![4](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/datacategory1.jpg?raw=true "4")
+![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/datacategory2.jpg?raw=true "5")
+![6](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/globe.jpg?raw=true "6")
 
 
 ### ***Task 3: Creating Hirarchy in Orders table***
@@ -92,6 +99,9 @@ You can add more data categories to all the other geographical columns(Region, C
 3. Click the dropdown to add level and choose state.
 4. Click the dropdown to add level and choose city.
 5.Click on Apply Level Changes
+![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/created%20hirarcy.jpg?raw=true "9")
+![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/applylevelchanges.jpg?raw=true "10")
+![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/countryhirarchu.jpg?raw=true "11")
 
 ### **Task 4: Finish up**
 
@@ -103,4 +113,4 @@ In this task you will complete the lab.
 
 3. If you intend to start the next lab, leave Power BI Desktop open.
 
-	*You’ll enhance the data model with calculations using DAX in the **Create DAX Calculations in Power BI Desktop, Part 2** lab.*
+	*You’ll enhance the data model with calculations using DAX in the **Create DAX Calculations in Power BI Desktop, Part 1** lab.*
