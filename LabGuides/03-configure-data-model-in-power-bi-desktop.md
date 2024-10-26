@@ -146,18 +146,17 @@ Check if any changes has been applied to the tables. If you still cannot find an
 
 Likewise, Drag and drop the Key Id's from dimentional table to factorial table.
 - OrderID in Orders table with OrderID in Returns table
-- ProductID in Products table with ProductID in Orders table
 - Region key in Region table with Regionkey in Orders table
 
 ![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/oid.jpg?raw=true "9")
-![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/pid.jpg?raw=true "10")
+
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/region.jpg?raw=true "11")
 
 
 This figure is called as "Star Schema". Where the fact table is our Orders in the table surrounded by dimentional tables making a proper data model figure.
 
 **Star Schema**
-![12](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/starschema.jpg?raw=true "12")
+![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/starss.jpg?raw=true "10")
 
-We will look into creating manual relationships between the tables, creating hirarchies and look at table properties in the upcoming lab(3.2)
+We will look into creating manual relationships between the tables( Product and Orders) , creating hirarchies and data categories in the upcoming lab(3.2)
 
