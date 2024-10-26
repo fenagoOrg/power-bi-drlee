@@ -9,7 +9,7 @@ lab:
 
 **The estimated time to complete the lab is 60 minutes**
 
-In this lab you will create calculated tables, calculated columns, and simple measures using Data Analysis Expressions (DAX).
+In this lab you will create calculated tables, calculated columns using Data Analysis Expressions (DAX).
 
 In this lab you learn how to:
 
@@ -18,9 +18,8 @@ In this lab you learn how to:
 - Create calculated columns
 
 
-<h4><span style="color:red;">Important! Make sure that you have copied **DA100** folder from `Desktop/power-bi-next-level` folder into D:\ drive before starting the lab.</span></h4>
+<h4><span style="color:red;">Important! Make sure that you are working on the previous lab file for this exercise before starting the current one.</span></h4>
 
-![](./Linked_image_Files/copy.png)
 
 ### **Lab story**
 
@@ -95,7 +94,8 @@ You can go back to your model view and join --- Dimdate with Orderdate in Orders
 
 In this task you will create calculated columns use DAX formulas.
 
-Creating **Profit Category** calculated column:
+#### Creating **Profit Category** calculated column:
+
 1. Click on **New Column** option located in the taskbar
 2. Enter the below expression in the formula bar and press enter
 `Profit Category = 
@@ -106,18 +106,29 @@ SWITCH(
     [Profit] <50 , "Low Profit",
     "No Profit"
 )`
+
 ![8](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/profitcategory.jpg?raw=true "11")
+
 In the above formula we have used SWITCH function to write a conditonal formula that has alloted values Low, High and Very High profits as per the values in the expression.
 
+#### Creating **Sales After Discount** calculated column:
 
+If you want to calculate the total sales amount after applying the discount, you can create another calculated column
 
+1. Click on **New Column** option located in the taskbar
+2. Enter the below expression in the formula bar and press enter
+`Sales After Discount = Orders[Sales] * (1 - Orders[Discount])
+`
+![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/salesafterdiscount.jpg?raw=true "9")
 
+#### Creating **Profit Margin** calculated column:
 
+If you want to calculate the total sales amount after applying the discount, you can create another calculated column
 
-
-
-
-
+1. Click on **New Column** option located in the taskbar
+2. Enter the below expression in the formula bar and press enter
+`Profit Margin = DIVIDE(Orders[Profit], Orders[Sales], 0)`
+![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/profitmargin.jpg?raw=true "10")
 
 
 
