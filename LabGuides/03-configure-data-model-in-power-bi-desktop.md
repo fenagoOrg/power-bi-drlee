@@ -156,6 +156,7 @@ Likewise, Drag and drop the Key Id's from dimentional table to factorial table.
 This figure is called as "Star Schema". Where the fact table is our Orders in the table surrounded by dimentional tables making a proper data model figure.
 
 **Star Schema**
+
 ![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/starss.jpg?raw=true "10")
 
 We will look into creating manual relationships between the tables( Product and Orders) , creating hirarchies and data categories in the upcoming lab(3.2)
