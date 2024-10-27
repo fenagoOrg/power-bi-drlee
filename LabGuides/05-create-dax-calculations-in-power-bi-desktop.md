@@ -43,11 +43,6 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 9. Create a Power BI Dashboard
 
-10. Create a Power BI Paginated Report
-
-11. Perform Data Analysis in Power BI Desktop
-
-12. Enforce Row-Level Security
 
 1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
