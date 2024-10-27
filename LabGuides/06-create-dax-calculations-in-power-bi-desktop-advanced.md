@@ -9,6 +9,7 @@ lab:
 
 **The estimated time to complete the lab is 60 minutes**
 
+In this lab you will create measures with DAX expressions involving filter context manipulation.
 
 In this lab you learn how to:
 
@@ -17,7 +18,7 @@ In this lab you learn how to:
 - Use Time Intelligence functions (Quick Measure)
 
 
-<h4><span style="color:red;">Important! Make sure that you have copied **DA100** folder from `Desktop/power-bi-next-level` folder into D:\ drive before starting the lab.</span></h4>
+<h4><span style="color:red;">Important! Make sure that you are working on the previous lab file for this exercise before starting the current one.</span></h4>
 
 
 ### **Lab story**
