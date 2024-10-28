@@ -7,7 +7,7 @@ lab:
 
 # **Design a Report in Power BI Desktop, Part 1**
 
-**The estimated time to complete the lab is 45 minutes**
+**The estimated time to complete the lab is  minutes**
 
 In this lab you learn how to:
 
@@ -100,7 +100,47 @@ NOTE:- As you keep creating the below reports , align them in the canvas by doub
 
 ![8](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/pie.jpg?raw=true "8")
 
-### **Task 2: Create Pie Chart **
+### Task 2: Create Bar Chart
+
+1. On the visualizations pane.
+
+2. Click on Bar Chart.
+
+3. In X - axis - > Drag and drop Total Orders from Customers Table
+
+4. In Y- axis -> Drag and drop state from Orders table
+
+![1](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/odersregion.jpg?raw=true "1")
+
+![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/barchart.jpg?raw=true "2")
+
+
+### Task 2: Create Multirow Card
+
+1. On the visualizations pane.
+
+2. Click on Multi-row card.
+
+3. In X - axis - > Drag and drop Total Orders from Customers Table
+
+4. In Y- axis -> Drag and drop state from Orders table
+
+![6](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/multirow.jpg?raw=true "6")
+
+![7](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/multi.jpg?raw=true "7")
+
+### Task 2: Create Map Visual
+
+1. On the visualizations pane.
+
+2. Click on Map visual.
+
+3. Drag and drop State from Orders table.
+
+4. Drag and drop Profit from Orders table.
+
+![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/map.jpg?raw=true "9")
+
 
 ### **Task 2: Finish up**
 
