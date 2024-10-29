@@ -55,23 +55,42 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 3. Drag and drop Order Date column in the field ( if the whole date hirarchy is seen then just remove all other elements(Quater,Month or Day) and just keep Year)
 
+![1](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/slicersetting.jpg?raw=true "1")
+
 4. You will see a visual that shows dates 2014 -2017 , however this is not that clear to choose a accurate year
 
-5. Clik on format Visual option -> Slicer settings -> Choose Dropdown
+![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/slicer.jpg?raw=true "2")
+
+5. Clik on format Visual option -> Slicer settings -> Choose Dropdown option.
+
+![3](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/dropdownslicer.jpg?raw=true "3")
+
 
 > By doing this we can see the whole dashboard reflecting on a perticular year that is selected.
 
-
-### **Task 2: Add more Cards**
-
-By following the previous steps mentioned earlier in the lab. You can add more cards to the dashboard like SalesYTD , SalesQTD and SalesMTD
-
-Align them on top right corner as shown below. You can simply double tab, hold and drag them across.
 
 ### **Task 1: Set up a theme **
 
 On the Toolbar -> Click on View -> Scroll Down and Choose the theme "Innovate". 
 
-### **Task 2: Align All the Cards & **
+![8](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/theme.jpg?raw=true "8")
+
+### Task 1: Add Dashboard Title 
+
+Add a text box for our dashboard title.
+
+1. On the report view -> Click on Text Box -> Enter the Title "Superstore Dashboard"
+
+![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/text%20box.jpg?raw=true "5")
+
+![6](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/TITLE.jpg?raw=true "6")
+
+### Task 2: Add SalesYTD , SalesQTD And SalesMTD Cards 
+
+By following the previous steps mentioned earlier in the lab. You can add more cards to the dashboard like SalesYTD , SalesQTD and SalesMTD
+
+Align them on top right corner as shown below. You can simply double tab, hold and drag them across.
 
 
+
+### **Task 2: Formatting Settings for Pie Chart**
