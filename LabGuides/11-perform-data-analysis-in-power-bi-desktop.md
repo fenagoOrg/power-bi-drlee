@@ -48,6 +48,9 @@ This lab is one of many in a series of labs that was designed as a complete stor
 10. **Perform Data Analysis in Power BI Desktop**
 
 
+**NOTE: Please complete the lab in a new sheet. You can do that by switching to page 2!.**
+
+![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/sheet2.jpg?raw=true "11")
 
 ## Task 1: Creating Decomposition Tree
 
@@ -56,6 +59,12 @@ Click on the "Visualizations" pane and select the Decomposition Tree icon.
 1. Analyze: Drag a measure "Total Profit" 
 
 2. Explain by: Add dimensions you want to analyze by, such as "Category," "Sub-Category," & "Region," 
+
+Once set up, you can click on the nodes to drill down and explore how each dimension contributes to your total profit.
+
+![1](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/dtsettings.jpg?raw=true "1")
+
+![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/dt.jpg?raw=true "2")
 
 
 ## Task 1: Creating ScatterPlot
@@ -74,24 +83,44 @@ Click on the "Visualizations" pane and select the Scatter Plot icon.
 
 5. Play Axis: Add OrderDatecolumn -> choose only "Year"
 
+Click on the play button to see the moving animation of the components!
+
+![3](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/scsettings.jpg?raw=true "3")
+
+![4](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/sc.jpg?raw=true "4")
+
 ## Task 3: Creating KPI
 
-Value: Choose a measure "Total Sales."
+1. Value: Choose a measure "Total Sales."
 
-Target: Choose a measure "Average Sales" .
+3. Target: Choose a measure "Average Sales" .
 
-Trend Axis:  Chosee Order Date column
+5. Trend Axis: Choose Order Date column
 
-### **Task 2: Finish up**
+![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/kpisettiings.jpg?raw=true "5")
 
-In this task you will complete the lab.
+![6](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/kpi.jpg?raw=true "6")
 
-1. Select the **Scatter Chart** page.
+## Task 3: Creating Key Influencer
 
-2. Save the Power BI Desktop file.
+1. Analyze: Drag a target measure "Profit Margin".
 
-3. To publish the file to your workspace, on the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
+3. Explain by: Add potential influencing factors, such as "Sub-Category".
 
-	![Picture 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
+![7](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/ki.jpg?raw=true "7")
 
-4.  Close Power BI Desktop.
+![8](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/kii.jpg?raw=true "8")
+
+
+
+------------
+
+
+**The final data analysis sheet looks like below!**
+
+![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/DA.jpg?raw=true "9")
+
+### Finish up**
+
+
+You can save the file by either .pbix extenion or publish to your PowerBI workspace by logging in your microsoft account!
