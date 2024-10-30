@@ -175,4 +175,4 @@ This will navigate you back to report view.
 ![12](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/closeandaplly.jpg?raw=true "12")
 
 
-> If you intend to start the next lab, leave Power BI Desktop open.
+> If you intend to start the next lab, save and close this current lab. 
