@@ -82,9 +82,6 @@ Note: Dimdate is our table name and calenderauto() is a function.
 The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behavior scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data is stored.*
 
 
-You can go back to your model view and join --- Dimdate with Orderdate in Orders table
-![7](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/schemawith%20date.jpg?raw=true "7")
-
 ### **Task 2: Calculated Columns**
 
 In this task you will create calculated columns use DAX formulas.
