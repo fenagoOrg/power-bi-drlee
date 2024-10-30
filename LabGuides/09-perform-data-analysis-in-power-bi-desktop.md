@@ -27,9 +27,9 @@ In this lab you learn how to:
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
-1. Prepare Data in Power BI Desktop
+1.Load Data in Power BI Desktop
 
-2. Load Data in Power BI Desktop
+2. Prepare Data in Power BI Desktop
 
 3. Model Data in Power BI Desktop, Part 1
 
@@ -41,11 +41,9 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 7. Design a Report in Power BI Desktop, Part 1
 
-8. Design a Report in Power BI Desktop, Part 2
+8. Create a Power BI Dashboard
 
-9. Create a Power BI Dashboard
-
-10. **Perform Data Analysis in Power BI Desktop**
+9. **Perform Data Analysis in Power BI Desktop**
 
 
 **NOTE: Please complete the lab in a new sheet. You can do that by switching to page 2!.**
@@ -112,7 +110,6 @@ Click on the play button to see the moving animation of the components!
 ![8](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/kii.jpg?raw=true "8")
 
 
-
 ------------
 
 
@@ -120,7 +117,7 @@ Click on the play button to see the moving animation of the components!
 
 ![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/DA.jpg?raw=true "9")
 
-### Finish up**
+### Finish up
 
 
 You can save the file by either .pbix extenion or publish to your PowerBI workspace by logging in your microsoft account!
