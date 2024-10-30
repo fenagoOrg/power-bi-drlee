@@ -41,6 +41,8 @@ This lab is one of many in a series of labs that was designed as a complete stor
 8. Design a Report in Power BI Desktop, Part 2
 
 9. **Create a Power BI Dashboard**
+    
+10. Perform Data Analysis in Power BI Desktop
 
 > 
 Tip: You can always click on **Focus Mode** for any visual to enlarge it and understand the data.
