@@ -42,6 +42,9 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 9. **Create a Power BI Dashboard**
 
+> 
+Tip: You can always click on **Focus Mode** for any visual to enlarge it and understand the data.
+Just hover on top the visual to find the option.
 
 
 ### **Task 1: Get started **
@@ -91,6 +94,51 @@ By following the previous steps mentioned earlier in the lab. You can add more c
 
 Align them on top right corner as shown below. You can simply double tab, hold and drag them across.
 
-
+![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/allcards.jpg?raw=true "9")
 
 ### **Task 2: Formatting Settings for Pie Chart**
+
+Click on the pie chart
+
+1.  On the visualization pane.-> Beside Build your visual option -> You will find an option "format your visual" , click on it.
+
+2. Under Visual option -> Expand the detailed labels option -> Under Label Contents, choose "Category, Percent of total"
+
+![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/piedetailds.jpg?raw=true "9")
+
+3. Observe the graph labels refelecting the changes.
+
+> Optional: You can further enhance the the graph by changing the font text , font colors and lots of other effects. You can do this by clicking on General option beside Visual Option.
+
+### **Task 2: Formatting Settings for Line Chart**
+
+Click on the Line chart
+
+1. - On the visualaization pane.-> Beside Build your visual option -> You will find an option "format your visual" , click on it.
+
+2. Under Visual option -> Enable the Zoom Slider option.
+
+![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/zoomSliderline.jpg?raw=true "10")
+
+3. Observe the graph labels refelecting the changes.
+
+> Go ahead and change the title of the graph "Sum of sales and Profit by year"
+
+### **Task 3: Formatting Settings for Bar Chart**
+
+Click on the Bar chart
+
+1. - On the visualaization pane.-> Beside Build your visual option -> You will find an option "format your visual" , click on it.
+
+2. Under Visual option -> Enable the Data Label option.
+
+![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/pie%20label.jpg?raw=true "10")
+
+> Go ahead and explore more formating options for other visualizations. PowerBI is all about understanding the data and building visualizations. Hence, making it easier for our clients to get valueable insights!
+
+The final "Superstore Dashboard"
+
+However, We are going to explore more cruial visualizations that help us boost our data analysis in the upcoming final lab!
+
+![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/SD.jpg?raw=true "11")
+
