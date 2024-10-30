@@ -136,4 +136,4 @@ Similarly , by following the above steps
 ![1](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/mtd.jpg?raw=true "1")
 
 
-> In the upoming labs , we will see how can we use these values to help us build meaningful reports
+> In the upcoming labs , we will see how can we use these values to help us build meaningful reports
