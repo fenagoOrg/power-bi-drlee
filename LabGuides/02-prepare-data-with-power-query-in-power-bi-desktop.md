@@ -8,7 +8,6 @@ lab:
 
 **The estimated time to complete the lab is 35 minutes**
 
-In this lab you commence the development of a Power BI Desktop solution for the Adventure Works company. It involves connecting to source data, previewing the data, and using data preview techniques to understand the characteristics and quality of the source data.
 
 In this lab you learn how to:
 
@@ -25,7 +24,7 @@ In this lab you learn how to:
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 9 labs, we suggest you do them in the following order:
+Our PowerBI labs are segregated into 9 labs, we suggest you do them in the following order:
 
 1. Load Data in Power BI Desktop
 
