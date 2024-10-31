@@ -54,11 +54,11 @@ Our PowerBI labs are segregated into 9 labs, we suggest you do them in the follo
 2. To open the previous Power BI Desktop file, click the **Open** option on the lest tab to open the backstage view.
 
 
-3. In the recent section choose your latest file that you have saved
+3. In the **Recent** section choose your latest file that you have saved.
    
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/open%20a%20saved%20file.jpg?raw=true "11")
 
-![12](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/findfrom%20recent.jpg?raw=true "12")
+
 
 ## **Task 1: Create Calculated Table**
 
