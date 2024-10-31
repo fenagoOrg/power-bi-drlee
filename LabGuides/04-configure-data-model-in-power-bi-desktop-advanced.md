@@ -12,15 +12,18 @@ lab:
 #### In this lab you learn how to:
 
 - Build relationships between the tables manually( Manage Relationships).
+
 - Configure cross filters between the tables.
+
 - Create hirarchies
+
 - Understand table properties.
 
-<h4><span style="color:red;">Important! Make sure that you are working on the previous lab(3.1) open before starting the lab.</span></h4>
+<h4><span style="color:red;">Important! Make sure that you are working on the previous lab. </span></h4>
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Our PowerBI labs are segregated into 9 labs, we suggest you do them in the following order:
 
 1. Load Data in Power BI Desktop
 
@@ -34,47 +37,45 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 6. Create DAX Calculations in Power BI Desktop, Part 2
 
-7. Design a Report in Power BI Desktop, Part 1
+7. Design a Reports in Power BI Desktop
 
-8. Design a Report in Power BI Desktop, Part 2
+8. Create a Power BI Dashboard
 
-9. Create a Power BI Dashboard
+9. Perform Data Analysis in Power BI Desktop
 
-10. Create a Power BI Paginated Report
-
-11. Perform Data Analysis in Power BI Desktop
 
 
 ### **Task 1: Get started**
 
 In this task you will setup the environment for the lab.
 
-*Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
-
 1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
  	![Picture 8](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image1.png)
 
+2. To open the previous Power BI Desktop file, click the **Open** option on the lest tab to open the backstage view.
 
-1. To open the previous Power BI Desktop file, click the **Open** option on the lest tab to open the backstage view.
-2. In the recent section choose your latest file that you have saved
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/open%20a%20saved%20file.jpg?raw=true "11")
 
-![12](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/findfrom%20recent.jpg?raw=true "12")
-
+3. In the recent section choose your latest file that you have saved
 
 ## Task 2: Create new relationship between Product table with Order Table
 
 1. Go to Model view
+
 2. Click on Manage Relationships -> New Relationship.
+
 3. Select from table -> choose product table -> slect productid
+
 4. Click on To table ->choose orders table -> select productid
+
 5. Check the cardinality, the default is one to many along with cross filter direction "Single"
+
 6. Click on "Save"
+
 ![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/new%20relationship.jpg?raw=true "2")
 
 ![3](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/relationprod-order.jpg?raw=true "3")
-
 
 After few seconds, you will observe a relation built from products table to orders table..
 
@@ -85,10 +86,15 @@ After few seconds, you will observe a relation built from products table to orde
 ### Task 3: Setting data categories for Geogrpahical columns
 
 1. In model view, tap on data pane -> expand orders table -> tap on **Country**.
+
 2. In Properties pane, scroll down to Advanced section. When you expand it, click on the **Data Category** dropdown.
+
 ![4](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/datacategory1.jpg?raw=true "4")
+
 3. Choose **Country/Region** option
+
 ![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/datacategory2.jpg?raw=true "5")
+
 4. Notice the **globe icon** beside **Country** column.
 
 > You can add more data categories to all the other geographical columns(Region, County,States or Cities)
@@ -102,9 +108,13 @@ After few seconds, you will observe a relation built from products table to orde
 ![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/created%20hirarcy.jpg?raw=true "9")
 
 2. In properties pane -> Under Hirarchy you will see country is selected and now we need to add more levels under it.
+
 3. Click the dropdown to add level and choose state.
+
 4. Click the dropdown to add level and choose city.
+
 5.Click on Apply Level Changes
+
 ![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/applylevelchanges.jpg?raw=true "10")
 
 > You will find the complete hirarchy under "**Country Hirarchy**"
