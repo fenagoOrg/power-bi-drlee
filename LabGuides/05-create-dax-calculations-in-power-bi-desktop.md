@@ -25,9 +25,9 @@ In this lab you learn how to:
 
 Our PowerBI labs are segregated into 9 labs, we suggest you do them in the following order:
 
-1. Prepare Data in Power BI Desktop
+1. Load Data in Power BI Desktop
 
-2. Load Data in Power BI Desktop
+2. Prepare Data in Power BI Desktop
 
 3. Model Data in Power BI Desktop, Part 1
 
@@ -41,17 +41,20 @@ Our PowerBI labs are segregated into 9 labs, we suggest you do them in the follo
 
 8. Create a Power BI Dashboard
    
-9. Perform Data Analysis  
+9. Perform Data Analysis 
 
+
+**Get Started!**
 
 1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
  	![Picture 8](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image1.png)
 
 
-1. To open the previous Power BI Desktop file, click the **Open** option on the lest tab to open the backstage view.
-   
-2. In the recent section choose your latest file that you have saved
+2. To open the previous Power BI Desktop file, click the **Open** option on the lest tab to open the backstage view.
+
+
+3. In the recent section choose your latest file that you have saved
    
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/open%20a%20saved%20file.jpg?raw=true "11")
 
@@ -111,9 +114,8 @@ In the above formula we have used SWITCH function to write a conditonal formula 
 
 #### Creating **Sales After Discount** calculated column:
 
-If you want to calculate the total sales amount after applying the discount, you can create another calculated column
-
 1. Click on **New Column** option located in the taskbar
+
 2. Enter the below expression in the formula bar and press enter
 `Sales After Discount = Orders[Sales] * (1 - Orders[Discount])
 `
@@ -121,7 +123,6 @@ If you want to calculate the total sales amount after applying the discount, you
 
 #### Creating **Profit Margin** calculated column:
 
-If you want to calculate the total sales amount after applying the discount, you can create another calculated column
 
 1. Click on **New Column** option located in the taskbar
 
