@@ -26,7 +26,7 @@ In this lab you learn how to:
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Our PowerBI labs are segregated into 9 labs, we suggest you do them in the following order:
 
 1. Load Data in Power BI Desktop
 
@@ -40,17 +40,12 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 6. Create DAX Calculations in Power BI Desktop, Part 2
 
-7. Design a Report in Power BI Desktop, Part 1
+7. Design a Reports in Power BI Desktop
 
-8. Design a Report in Power BI Desktop, Part 2
+8. Create a Power BI Dashboard
 
-9. Create a Power BI Dashboard
+9. Perform Data Analysis in Power BI Desktop
 
-10. Create a Power BI Paginated Report
-
-11. Perform Data Analysis in Power BI Desktop
-
-12. Enforce Row-Level Security
 
 ## **Exercise 1: Implement Data Manipulation Techniques**
 
@@ -68,11 +63,12 @@ In this task you will setup the environment for the lab.
 
 2. Import Sample-Superstore dataset in PowerBI
 
-**Get Data -> Excel Workbook**
+3. Click on **Get Data -> Excel Workbook**
 
-3. Choose tables `Customers, Orders, Returns,Products and Region`
+4. Choose tables `Customers, Orders, Returns,Products and Region`
 ![1](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/loadtablesSS.jpg?raw=true "1")
-4. Click on **Transform Data**
+
+5. Click on **Transform Data**
 
 > This might take few minutes to load depending upon the operating system and its version.
 
@@ -81,13 +77,16 @@ In this task you will setup the environment for the lab.
 In this task you will do some data corrections to model the data correctly. 
 
 1. In the power query editor you will find all the tables imported sucessfully.
+
 2. In Products table, You observe the first row is having column names, we should move them to headers.
+
 3. Click on the option - `Use first row as headers`
+   
 ![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/observerowheaders.jpg?raw=true "2")
 
 4. This will configure the headers for all the columns.
 
-> Similarlly, configure the headers for the Returns Table
+> Similarly, configure the headers for the Returns Table
 
 5. In Products table there are lots of empty columns. Remove them by holding `ctrl` button and right click on the null columns -> remove columns
 
@@ -102,16 +101,18 @@ In this task you will do some data corrections to model the data correctly.
 
 	*In Model view, it’s possible to view each table and relationships (connectors between tables).In most cases it will autodetect relations, however if there are inconsistencies in the data it will not create any of them.
 
-9. You can click on **Manage Relationships -> Autodetect**
+8. You can click on **Manage Relationships -> Autodetect**
 
-10. You can also drag and drop columns between tables.
-Example:- CustomerId in Orders table WITH CustomerID to Customer table
+9. You can also drag and drop columns between tables.
+    
+**Example:- CustomerId in Orders table WITH CustomerID to Customer table**
 
 **We get a cardinality error in our case. As there is still some incomplete data cleaning steps.To Avoid this error , you need to remove duplicates from our Dimentional tables as we are trying to build a star schema model for our project.**
 
-> Cardinality:- Cardinality in Power BI is a mathematical term that describes the relationship between two tables in a data model. It defines how many unique values from one table are related to unique values in another table.
+> **Cardinality:-**
+Cardinality in Power BI is a mathematical term that describes the relationship between two tables in a data model. It defines how many unique values from one table are related to unique values in another table.
 
-> Star Schema:
+> **Star Schema:**
 Star schema is a mature modeling approach widely adopted by relational data warehouses. It requires modelers to classify their model tables as either dimension or fact.
 
 > Dimension tables describe business entities—the things you model. Entities can include products, people, places, and concepts including time itself.A dimension table contains a key column (or columns) that acts as a unique identifier, and descriptive columns.
@@ -134,14 +135,17 @@ The relationship we are looking for the tables is  **one-to-many**
 ### **Task 3: Manipulate the data in power query (Remove Duplicates for Cardinality error)**
 
 1. Go to Transform data -> Select Customers table -> Right click on the CustomerID column -> Remove Duplicates.
+
 ![7](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/removeduplicates.jpg?raw=true "7")
 
-**> Similarlly remove duplicates from  other dimentional tables.
-Once all the duplicates are removed from each of the dimentional tables. Do not forget to Close&Apply.**
+> Similarly remove duplicates from  other dimentional tables.
+Once all the duplicates are removed from each of the dimentional tables. Do not forget to Close&Apply.
 
 
 2. Navigate back to Model View.
+
 Check if any changes has been applied to the tables. If you still cannot find any relationship between the tables, you can drag and drop the Respective keys to create a relation.
+
 ![8](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/cid.jpg?raw=true "8")
 
 Likewise, Drag and drop the Key Id's from dimentional table to factorial table.
@@ -153,11 +157,11 @@ Likewise, Drag and drop the Key Id's from dimentional table to factorial table.
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/region.jpg?raw=true "11")
 
 
-This figure is called as "Star Schema". Where the fact table is our Orders in the table surrounded by dimentional tables making a proper data model figure.
+This figure is called as "Star Schema".Where the fact table is our Orders in the table surrounded by dimentional tables making a proper data model figure.
 
 **Star Schema**
 
 ![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/starss.jpg?raw=true "10")
 
-We will look into creating manual relationships between the tables( Product and Orders) , creating hirarchies and data categories in the upcoming lab(3.2)
+We will look into creating manual relationships between the tables( Product and Orders), creating hirarchies and data categories in the upcoming lab.
 
