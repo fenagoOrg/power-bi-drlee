@@ -36,15 +36,11 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 7. Design a Report in Power BI Desktop, Part 1
 
-8. Design a Report in Power BI Desktop, Part 2
+8. Create a Power BI Dashboard
 
-9. Create a Power BI Dashboard
+9. Perform Data Analysis in Power BI Desktop
 
-10. Create a Power BI Paginated Report
 
-11. Perform Data Analysis in Power BI Desktop
-
-12. Enforce Row-Level Security
 
 ## **Exercise 1: Load Data**
 
