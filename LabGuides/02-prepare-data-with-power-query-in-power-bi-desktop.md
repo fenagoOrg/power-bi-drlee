@@ -20,12 +20,12 @@ In this lab you learn how to:
 
 - Use data cleaning and transforming tools to prepare the data in Power Query Editor
 
-<h4><span style="color:red;">Important! Make sure that you have downloaded the datasets before starting the lab.</span></h4>
+<h4><span style="color:red;">Important! Make sure that you have downloaded the dataset(SalesvSalesPerson) before starting the lab.</span></h4>
 
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 9 labs, we suggest you do them in the following order:
 
 1. Load Data in Power BI Desktop
 
@@ -39,19 +39,16 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 6. Create DAX Calculations in Power BI Desktop, Part 2
 
-7. Design a Report in Power BI Desktop, Part 1
+7. Design a Reports in Power BI Desktop
 
-8. Design a Report in Power BI Desktop, Part 2
+8. Create a Power BI Dashboard
+    
+9. Perform Data Analysis in Power BI Desktop
 
-9. Create a Power BI Dashboard
 
-10. Create a Power BI Paginated Report
-
-11. Perform Data Analysis in Power BI Desktop
-
-12. Enforce Row-Level Security
 
 > As we have loaded files from our previous lab(Lab 1), we can start with data preparation in the current lab.
+
 ## **Exercise 1: Prepare Data**
 
 In this exercise you will explore power query editor that helps us clean and transform the data using specialised tools.
@@ -80,9 +77,9 @@ Lets explore more intresting data manipulation tools.!
 - **Column Distribution:-**
 This feature provides a set of visuals underneath the names of the columns that showcase the frequency and distribution of the values in each of the columns. The data in these visualizations is sorted in descending order from the value with the highest frequency.
 
-To view this feature in Power Query, follow the below steps.
+1. To view this feature in Power Query, follow the below steps.
 
-In the taskbar -> View -> check the **Column Distribution** option
+2. In the taskbar -> View -> check the **Column Distribution** option
 
 ![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/columndist.jpg?raw=true "2")
 
@@ -91,9 +88,9 @@ In the taskbar -> View -> check the **Column Distribution** option
 - **Column Profiling:-**
 This feature provides a more in-depth look at the data in a column. Apart from the column distribution chart, it contains a column statistics chart. 
 
-To view this feature in Power Query, follow the below steps.
+1. To view this feature in Power Query, follow the below steps.
 
-In the taskbar -> View -> check the **Column Profiling** option
+2. In the taskbar -> View -> check the **Column Profiling** option
 
 ![4](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/columnprofile.jpg?raw=true "4")
 
@@ -114,9 +111,9 @@ The column quality feature labels values in rows in five categories:
 
 These indicators are displayed directly underneath the name of the column as part of a small bar chart.
 
-To view this feature in Power Query, follow the below steps.
+1. To view this feature in Power Query, follow the below steps.
 
-In the taskbar -> View -> check the **Column Quality** option
+2. In the taskbar -> View -> check the **Column Quality** option
 
 ![6](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/columnquality.jpg?raw=true "6")
 
@@ -149,9 +146,9 @@ Remove the columns`(Middlename, Suffix, Addressline2)`
 **Replace Values:-**
 In Power Query, you can replace one value with another value in a selected column. You can replace specific values or the whole value in a cell. Replacing values in a query does not edit the external data source in any way.  
 
-To do this, right click on the column name that you wish to replace values.
+1. To do this, right click on the column name that you wish to replace values.
 
-In our case, lets replace null values with 0 in the column(`SalesQuota`)
+2. In our case, lets replace null values with 0 in the column(`SalesQuota`)
 
 ![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/replacevalues.jpg?raw=true "9")
 
@@ -175,4 +172,4 @@ This will navigate you back to report view.
 ![12](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/closeandaplly.jpg?raw=true "12")
 
 
-> If you intend to start the next lab, save and close this current lab. 
+> We are using different dataset from next labs. Kindly, save and close this current lab. 
