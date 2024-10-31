@@ -1,27 +1,26 @@
 ---
 lab:
-    title: 'Design a Report in Power BI Desktop, Part 1'
-    module: 'Module 6 - Create Reports'
+    title: 'Create a Reports in Power BI Desktop'
+    module: 'Module 5 - Create Reports'
 ---
 
 
-# **Design a Report in Power BI Desktop, Part 1**
+# **Create a Report in Power BI Desktop**
 
-**The estimated time to complete the lab is  minutes**
+**The estimated time to complete the lab is 60 minutes**
 
 In this lab you learn how to:
 
-- Design a report
+- Design a Report
 
-- Configure visual fields and format properties
-
+- Configure Visual fields. 
 
 <h4><span style="color:red;">Important! Make sure that you are working on the previous lab file for this exercise before starting the current one as this a continuation series of labs.</span></h4>
 
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Our PowerBI labs are segregated into 9 labs, we suggest you do them in the following order:
 
 1. Load Data in Power BI Desktop
 
@@ -48,13 +47,13 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 	![Picture 48](Linked_image_Files/07-design-report-in-power-bi-desktop_image3.png)
 
-NOTE:- As you keep creating the below reports , align them in the canvas by double tapping on each report and move them across the canvas.
+> *NOTE:- As you keep creating the below reports , align them in the canvas by double tapping on each report and move them across the canvas.*
 
-### **Task 2: Create CARD visuals in PowerBI**
+### Task 2: Create CARD visuals 
 
 1. On the visualizations pane 
 
-2. Click on Card Visual
+2. Click on **Card** Visual
 
 ![3](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/card.jpg?raw=true "3")
 
@@ -70,17 +69,17 @@ NOTE:- As you keep creating the below reports , align them in the canvas by doub
 
 ![4](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/totalsalesc.jpg?raw=true "4")
 
-### **Task 2: Create Line Chart **
+### Task 2: Create Line Chart 
 
 1. On the visualizations pane 
 
-2. Click on Line Chart.
+2. Click on **Line** Chart.
 
-3. In X - axis - > Drag and drop Order Date from Orders Table
+3. In X - axis - > Drag and drop **Order Date** from Orders Table
 
-4. In Y- axis -> Drag and drop sales from Orders table
+4. In Y- axis -> Drag and drop **Sales** from Orders table
 
-5. In Secondary Y - axis -> Drag and drop profit from Orders table
+5. In Secondary Y - axis -> Drag and drop **Profit** from Orders table
 
 ![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/line.jpg?raw=true "5")
 
@@ -90,11 +89,11 @@ NOTE:- As you keep creating the below reports , align them in the canvas by doub
 
 1. On the visualizations pane 
 
-2. Click on Pie Chart.
+2. Click on **Pie** Chart.
 
-3. In Legend - > Drag and drop Segment from Orders Table
+3. In Legend - > Drag and drop **Segment** from Orders Table
 
-4. In Values -> Drag and drop Total Sales from Orders table
+4. In Values -> Drag and drop **Total Sales** from Orders table
 
 ![7](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/piedetail.jpg?raw=true "7")
 
@@ -104,11 +103,11 @@ NOTE:- As you keep creating the below reports , align them in the canvas by doub
 
 1. On the visualizations pane.
 
-2. Click on Bar Chart.
+2. Click on **Clustered Bar** Chart.
 
-3. In X - axis - > Drag and drop Total Orders from Customers Table
+3. In X - axis - > Drag and drop **Total Orders** from Customers Table
 
-4. In Y- axis -> Drag and drop state from Orders table
+4. In Y- axis -> Drag and drop **State** from Orders table
 
 ![1](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/odersregion.jpg?raw=true "1")
 
@@ -119,11 +118,11 @@ NOTE:- As you keep creating the below reports , align them in the canvas by doub
 
 1. On the visualizations pane.
 
-2. Click on Multi-row card.
+2. Click on **Multi-row card**.
 
-3. In X - axis - > Drag and drop Total Orders from Customers Table
+3. In X - axis - > Drag and drop **Total Orders** from Customers Table (or any table in which you have created the measure)
 
-4. In Y- axis -> Drag and drop state from Orders table
+4. In Y- axis -> Drag and drop **State** from Orders table
 
 ![6](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/multirow.jpg?raw=true "6")
 
@@ -133,11 +132,11 @@ NOTE:- As you keep creating the below reports , align them in the canvas by doub
 
 1. On the visualizations pane.
 
-2. Click on Map visual.
+2. Click on **Map** visual.
 
-3. Drag and drop State from Orders table.
+3. Drag and drop **State** from Orders table.
 
-4. Drag and drop Profit from Orders table.
+4. Drag and drop **Profit** from Orders table.
 
 ![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/map.jpg?raw=true "9")
 
@@ -152,4 +151,4 @@ In this task you will complete the lab.
 
 2. Leave the Microsoft Edge browser window open.
 
-	*You will enhance the report design with advanced features in the **Design a Report in Power BI Desktop, Part 2** lab.*
+	*You will learn enhancing the reports and create a Superstore dashboard in the upcoming lab.*
