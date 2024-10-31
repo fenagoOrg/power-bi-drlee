@@ -1,12 +1,12 @@
 ---
 lab:
     title: 'Create a Power BI Dashboard'
-    module: 'Module 8 - Create Dashboards'
+    module: 'Module 6 - Create Dashboards'
 ---
 
 # **Create a Power BI Dashboard**
 
-**The estimated time to complete the lab is 45 minutes**
+**The estimated time to complete the lab is 60 minutes**
 
 In this lab you learn how to:
 
@@ -22,7 +22,7 @@ In this lab you learn how to:
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Our PowerBI labs are segregated into 9 labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
 
@@ -36,14 +36,13 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 6. Create DAX Calculations in Power BI Desktop, Part 2
 
-7. Design a Report in Power BI Desktop, Part 1
+7. Create Reports in Power BI Desktop
 
-8. Design a Report in Power BI Desktop, Part 2
+8. **Create a Power BI Dashboard**
 
-9. **Create a Power BI Dashboard**
+9. Perform Data Analysis
 
-> 
-Tip: You can always click on **Focus Mode** for any visual to enlarge it and understand the data.
+> Tip: You can always click on **Focus Mode** for any visual to enlarge it and understand the data.
 Just hover on top the visual to find the option.
 
 
@@ -116,7 +115,7 @@ Click on the Line chart
 
 1. - On the visualaization pane.-> Beside Build your visual option -> You will find an option "format your visual" , click on it.
 
-2. Under Visual option -> Enable the Zoom Slider option.
+2. Under Visual option -> Enable the **Zoom Slider** option.
 
 ![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/zoomSliderline.jpg?raw=true "10")
 
@@ -130,7 +129,7 @@ Click on the Bar chart
 
 1. - On the visualaization pane.-> Beside Build your visual option -> You will find an option "format your visual" , click on it.
 
-2. Under Visual option -> Enable the Data Label option.
+2. Under Visual option -> Enable the **Data Label** option.
 
 ![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/pie%20label.jpg?raw=true "10")
 
@@ -138,7 +137,7 @@ Click on the Bar chart
 
 The final "Superstore Dashboard"
 
-However, We are going to explore more cruial visualizations that help us boost our data analysis in the upcoming final lab!
+However, We are going to explore more important visualizations that help us boost our data analysis in the upcoming final lab!
 
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/SD.jpg?raw=true "11")
 
