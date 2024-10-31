@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Model Data in Power BI Desktop, Part 2'
-    module: 'Module 3.2 - Design a Data Model in Power BI'
+    module: 'Module 3.1 - Design a Data Model in Power BI'
 ---
 
 
@@ -11,7 +11,7 @@ lab:
 
 #### In this lab you learn how to:
 
-- Build relationships between the tables manually( Manage Relationships).
+- Build relationships between the tables manually( Using Manage Relationships).
 
 - Configure cross filters between the tables.
 
@@ -59,15 +59,15 @@ In this task you will setup the environment for the lab.
 
 3. In the recent section choose your latest file that you have saved
 
-## Task 2: Create new relationship between Product table with Order Table
+## Task 2: Create New Relationship Between Product Table With Order Table
 
 1. Go to Model view
 
-2. Click on Manage Relationships -> New Relationship.
+2. Click on Manage Relationships -> **New Relationship**.
 
-3. Select from table -> choose product table -> slect productid
+3. Click From table -> choose product table -> select **Productid**
 
-4. Click on To table ->choose orders table -> select productid
+4. Click on To table -> choose orders table -> select **Productid**
 
 5. Check the cardinality, the default is one to many along with cross filter direction "Single"
 
@@ -104,16 +104,17 @@ After few seconds, you will observe a relation built from products table to orde
 
 ### ***Task 4: Creating Hirarchy in Orders table***
 
-1.In Model View, right click on country column -> Click on create hirarchy
+1.In Model View, right click on country column -> Click on **Create hierarchy**
+
 ![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/created%20hirarcy.jpg?raw=true "9")
 
 2. In properties pane -> Under Hirarchy you will see country is selected and now we need to add more levels under it.
 
-3. Click the dropdown to add level and choose state.
+3. Click the dropdown to add level and choose **State**.
 
-4. Click the dropdown to add level and choose city.
+4. Click the dropdown to add level and choose **City**.
 
-5.Click on Apply Level Changes
+5.Click on **Apply Level Changes**
 
 ![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/applylevelchanges.jpg?raw=true "10")
 
