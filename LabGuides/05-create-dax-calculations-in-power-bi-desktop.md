@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Create DAX Calculations in Power BI Desktop, Part 1'
-    module: 'Module 5 - Create Model Calculations using DAX in Power BI'
+    module: 'Module 4 - Create Model Calculations using DAX in Power BI'
 ---
 
 
@@ -13,7 +13,7 @@ In this lab you will create calculated tables, calculated columns using Data Ana
 
 In this lab you learn how to:
 
-- Create calculated tables
+- Create calculated Date Table
 
 - Create calculated columns
 
@@ -23,7 +23,7 @@ In this lab you learn how to:
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Our PowerBI labs are segregated into 9 labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
 
@@ -37,11 +37,11 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 6. Create DAX Calculations in Power BI Desktop, Part 2
 
-7. Design a Report in Power BI Desktop, Part 1
+7. Design a Reports in Power BI Desktop
 
-8. Design a Report in Power BI Desktop, Part 2
-
-9. Create a Power BI Dashboard
+8. Create a Power BI Dashboard
+   
+9. Perform Data Analysis  
 
 
 1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
@@ -50,10 +50,13 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 
 1. To open the previous Power BI Desktop file, click the **Open** option on the lest tab to open the backstage view.
+   
 2. In the recent section choose your latest file that you have saved
+   
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/open%20a%20saved%20file.jpg?raw=true "11")
 
 ![12](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/findfrom%20recent.jpg?raw=true "12")
+
 ## **Task 1: Create Calculated Table**
 
 Lets create a DATE table.
@@ -61,6 +64,7 @@ Lets create a DATE table.
 1. Navigate to "table view"
 
 ![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/table%20view.jpg?raw=true "2")
+
 2. Click on "New Table"
 
 ![1](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/new%20table.jpg?raw=true "1")
@@ -76,10 +80,11 @@ Note: Dimdate is our table name and calenderauto() is a function.
 
 
 ![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/datetype.jpg?raw=true "5")
+
 ![6](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/formatdate.jpg?raw=true "6")
 
 
-The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behavior scans all data model date columns to determine the earliest and latest date values stored in the data model. It then creates one row for each date within this range, extending the range in either direction to ensure full years of data is stored.*
+The CALENDARAUTO() function returns a single-column table consisting of date values. The “auto” behavior scans all data model date columns to determine the earliest and latest date values stored in the data model. 
 
 
 ### **Task 2: Calculated Columns**
@@ -89,6 +94,7 @@ In this task you will create calculated columns use DAX formulas.
 #### Creating **Profit Category** calculated column:
 
 1. Click on **New Column** option located in the taskbar
+
 2. Enter the below expression in the formula bar and press enter
 `Profit Category = 
 SWITCH(
@@ -118,10 +124,11 @@ If you want to calculate the total sales amount after applying the discount, you
 If you want to calculate the total sales amount after applying the discount, you can create another calculated column
 
 1. Click on **New Column** option located in the taskbar
+
 2. Enter the below expression in the formula bar and press enter
 `Profit Margin = DIVIDE(Orders[Profit], Orders[Sales], 0)`
-![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/profitmargin.jpg?raw=true "10")
 
+![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/profitmargin.jpg?raw=true "10")
 
 
 ### **Task 3: Finish up**
