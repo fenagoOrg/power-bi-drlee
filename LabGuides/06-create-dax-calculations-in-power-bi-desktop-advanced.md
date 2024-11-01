@@ -10,7 +10,6 @@ lab:
 **The estimated time to complete the lab is 60 minutes**
 
 
-
 In this lab you learn how to:
 
 - Create Measures
@@ -23,7 +22,7 @@ In this lab you learn how to:
 
 ### **Lab story**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+Our PowerBI labs are segregated into 9 labs, we suggest you do them in the following order:
 
 1. Prepare Data in Power BI Desktop
 
@@ -37,11 +36,11 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 6. **Create DAX Calculations in Power BI Desktop, Part 2**
 
-7. Design a Report in Power BI Desktop, Part 1
+7. Create Reports in Power BI Desktop
 
-8. Design a Report in Power BI Desktop, Part 2
-
-9. Create a Power BI Dashboard
+8. Create a Power BI Dashboard
+   
+9. Perform Data Analysis
 
 
 ### **Task 1: Get started**
@@ -100,6 +99,7 @@ In this task you will create measures for the model.
 
 ![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/avg%20sales.jpg?raw=true "5")
 
+
 ### **Task 3: Use Time Intelligence Functions **
 
 **Calculating YTD(Year-to-Date) using Quick Measure:**
@@ -118,7 +118,7 @@ In this task you will create measures for the model.
 
 ![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/yeartodate.jpg?raw=true "5")
 
-5. Drag and drop s**ales column** in base value and **Order Date** in date column( from Orders table)
+5. Drag and drop **Sales** column in base value and **Order Date** in date column( from Orders table)
 
 ![6](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/valuesytd.jpg?raw=true "6")
 
@@ -134,7 +134,7 @@ Similarly , by following the above steps
 
 2. Drag and drop **Sales** column in base value and **Order Date** in date column( from Orders table)
 
-3. Click on **Add **option
+3. Click on **Add** option
 
 ![2](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/qtd.jpg?raw=true "2")
 
@@ -144,7 +144,7 @@ Similarly , by following the above steps
 
 Similarly , by following the above steps
 
-1. Select** Month-to-date** option
+1. Select **Month-to-date** option
 
 2. Drag and drop **sales column** in base value and **Order date ** in date column( from Orders Table)
 
@@ -152,5 +152,11 @@ Similarly , by following the above steps
 
 ![1](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/mtd.jpg?raw=true "1")
 
+### Finish up
 
+In this task you will complete the lab.
+
+1. Save the Power BI Desktop file.
+
+2. If you intend to start the next lab, leave Power BI Desktop open.
 > In the upcoming labs , we will see how can we use these values to help us build meaningful reports. Save the progress, keep PowerBI open to countinue with next lab.
