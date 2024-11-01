@@ -37,7 +37,7 @@ Our PowerBI labs are segregated into 9 labs, we suggest you do them in the follo
 
 6. Create DAX Calculations in Power BI Desktop, Part 2
 
-7. Design a Reports in Power BI Desktop
+7. Create Reports in Power BI Desktop
 
 8. Create a Power BI Dashboard
 
@@ -122,7 +122,7 @@ After few seconds, you will observe a relation built from products table to orde
 
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/countryhirarchu.jpg?raw=true "11")
 
-### **Task 5: Finish up**
+### Finish up
 
 In this task you will complete the lab.
 
