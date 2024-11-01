@@ -61,7 +61,7 @@ Just hover on top the visual to find the option.
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/open%20a%20saved%20file.jpg?raw=true "11")
 
 
-### **Task 1: Add A Slicer **
+### Task 1: Add A Slicer
 
 1. On Visualizaions Pane 
 
@@ -83,7 +83,7 @@ Just hover on top the visual to find the option.
 > By doing this we can see the whole dashboard reflecting on a perticular year that is selected.
 
 
-### **Task 2: Set up a theme **
+### Task 2: Set up a theme
 
 On the Toolbar -> Click on View -> Scroll Down and Choose the theme "Innovate". 
 
@@ -125,7 +125,7 @@ Click on the pie chart
 
 Click on the Line chart
 
-1. - On the visualaization pane.-> Beside Build your visual option -> You will find an option "format your visual" , click on it.
+1. On the visualaization pane.-> Beside Build your visual option -> You will find an option "format your visual" , click on it.
 
 2. Under Visual option -> Enable the **Zoom Slider** option.
 
@@ -139,13 +139,14 @@ Click on the Line chart
 
 Click on the Bar chart
 
-1. - On the visualaization pane.-> Beside Build your visual option -> You will find an option "format your visual" , click on it.
+1. On the visualaization pane.-> Beside Build your visual option -> You will find an option "format your visual" , click on it.
 
 2. Under Visual option -> Enable the **Data Label** option.
 
 ![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/pie%20label.jpg?raw=true "10")
 
 > Go ahead and explore more formating options for other visualizations. PowerBI is all about understanding the data and building visualizations. Hence, making it easier for our clients to get valueable insights!
+
 
 The final "**Superstore Dashboard**"
 
@@ -154,4 +155,13 @@ However, We are going to explore more important visualizations that help us boos
 
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/SD.jpg?raw=true "11")
 
-> In the upcoming last ab, we will explore more important visuals that are useful for data analysis in PowerBI
+### **Finish up**
+
+In this task you will complete the lab.
+
+1. Save the Power BI Desktop file.
+
+2. If you intend to start the next lab, leave Power BI Desktop open.
+
+
+> In the upcoming last lab, we will explore more important visuals that are useful for data analysis in PowerBI
