@@ -47,32 +47,36 @@ Our PowerBI labs are segregated into 9 labs, we suggest you do them in the follo
 9. Perform Data Analysis in Power BI Desktop
 
 
-## **Exercise 1: Implement Data Manipulation Techniques**
-
 In this exercise you will explore more options through data manipulation in power query editor.
 
-### **Task 1: Get started**
-
-In this task you will setup the environment for the lab.
-
-*Important: This is a new dataset, please make sure you import "Sample - Superstore as it is used in further labs as well.*
+**Get Started!**
 
 1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
+ 	![Picture 8](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image1.png)
+
+
+2. To open the previous Power BI Desktop file, click the **Open** option on the lest tab to open the backstage view.
+
+
+3. In the **Recent** section choose your latest file that you have saved.
+   
+![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/open%20a%20saved%20file.jpg?raw=true "11")
     ![Picture 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
 
-2. Import Sample-Superstore dataset in PowerBI
 
-3. Click on **Get Data -> Excel Workbook**
+**Import Sample-Superstore dataset in PowerBI**
 
-4. Choose tables `Customers, Orders, Returns,Products and Region`
+1. Click on **Get Data -> Excel Workbook**
+
+2. Choose tables `Customers, Orders, Returns, Products and Region`
 ![1](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/loadtablesSS.jpg?raw=true "1")
 
-5. Click on **Transform Data**
+3. Click on **Transform Data**
 
 > This might take few minutes to load depending upon the operating system and its version.
 
-### **Task 2: Manipulate the data in power query**
+### **Task 1: Manipulate the data in power query**
 
 In this task you will do some data corrections to model the data correctly. 
 
@@ -95,6 +99,7 @@ In this task you will do some data corrections to model the data correctly.
 > Similarlly, remove the null columns in Region table
 
 6. Choose Close&Apply option.
+   
 7. Navigate to Model view tab
 
 ![5](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/modelview.jpg?raw=true "5")
@@ -132,7 +137,7 @@ The relationship we are looking for the tables is  **one-to-many**
  A one-to-many relationship means that a single record in one table (the "one" side) can relate to multiple records in another table (the "many" side). For example, one customer can have multiple orders.
 
 
-### **Task 3: Manipulate the data in power query (Remove Duplicates for Cardinality error)**
+### **Task 2: Manipulate the data in power query (Remove Duplicates for Cardinality error)**
 
 1. Go to Transform data -> Select Customers table -> Right click on the CustomerID column -> Remove Duplicates.
 
@@ -162,6 +167,15 @@ This figure is called as "Star Schema".Where the fact table is our Orders in the
 **Star Schema**
 
 ![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/starss.jpg?raw=true "10")
+
+
+### Finish up
+
+In this task you will complete the lab.
+
+1. Save the Power BI Desktop file.
+
+2. If you intend to start the next lab, leave Power BI Desktop open.
 
 We will look into creating manual relationships between the tables( Product and Orders), creating hirarchies and data categories in the upcoming lab.
 
