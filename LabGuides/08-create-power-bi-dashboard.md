@@ -46,7 +46,19 @@ Our PowerBI labs are segregated into 9 labs, we suggest you do them in the follo
 Just hover on top the visual to find the option.
 
 
-### **Task 1: Get started **
+**Get Started!**
+
+1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
+
+ 	![Picture 8](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image1.png)
+
+
+2. To open the previous Power BI Desktop file, click the **Open** option on the lest tab to open the backstage view.
+
+
+3. In the **Recent** section choose your latest file that you have saved.
+   
+![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/open%20a%20saved%20file.jpg?raw=true "11")
 
 
 ### **Task 1: Add A Slicer **
@@ -71,13 +83,13 @@ Just hover on top the visual to find the option.
 > By doing this we can see the whole dashboard reflecting on a perticular year that is selected.
 
 
-### **Task 1: Set up a theme **
+### **Task 2: Set up a theme **
 
 On the Toolbar -> Click on View -> Scroll Down and Choose the theme "Innovate". 
 
 ![8](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/theme.jpg?raw=true "8")
 
-### Task 1: Add Dashboard Title 
+### Task 3: Add Dashboard Title 
 
 Add a text box for our dashboard title.
 
@@ -87,7 +99,7 @@ Add a text box for our dashboard title.
 
 ![6](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/TITLE.jpg?raw=true "6")
 
-### Task 2: Add SalesYTD , SalesQTD And SalesMTD Cards 
+### Task 4: Add SalesYTD , SalesQTD And SalesMTD Cards 
 
 By following the previous steps mentioned earlier in the lab. You can add more cards to the dashboard like SalesYTD , SalesQTD and SalesMTD
 
@@ -95,7 +107,7 @@ Align them on top right corner as shown below. You can simply double tab, hold a
 
 ![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/allcards.jpg?raw=true "9")
 
-### **Task 2: Formatting Settings for Pie Chart**
+### **Task 5: Formatting Settings for Pie Chart**
 
 Click on the pie chart
 
@@ -109,7 +121,7 @@ Click on the pie chart
 
 > Optional: You can further enhance the the graph by changing the font text , font colors and lots of other effects. You can do this by clicking on General option beside Visual Option.
 
-### **Task 2: Formatting Settings for Line Chart**
+### **Task 6: Formatting Settings for Line Chart**
 
 Click on the Line chart
 
@@ -123,7 +135,7 @@ Click on the Line chart
 
 > Go ahead and change the title of the graph "Sum of sales and Profit by year"
 
-### **Task 3: Formatting Settings for Bar Chart**
+### **Task 7: Formatting Settings for Bar Chart**
 
 Click on the Bar chart
 
@@ -135,9 +147,11 @@ Click on the Bar chart
 
 > Go ahead and explore more formating options for other visualizations. PowerBI is all about understanding the data and building visualizations. Hence, making it easier for our clients to get valueable insights!
 
-The final "Superstore Dashboard"
+The final "**Superstore Dashboard**"
 
 However, We are going to explore more important visualizations that help us boost our data analysis in the upcoming final lab!
 
+
 ![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/SD.jpg?raw=true "11")
 
+> In the upcoming last ab, we will explore more important visuals that are useful for data analysis in PowerBI
