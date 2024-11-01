@@ -17,7 +17,6 @@ In this lab you learn how to:
 
 - Create calculated columns
 
-
 <h4><span style="color:red;">Important! Make sure that you are working on the previous lab file for this exercise before starting the current one.</span></h4>
 
 
@@ -132,7 +131,7 @@ In the above formula we have used SWITCH function to write a conditonal formula 
 ![10](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/profitmargin.jpg?raw=true "10")
 
 
-### **Task 3: Finish up**
+### **Finish up**
 
 In this task you will complete the lab.
 
