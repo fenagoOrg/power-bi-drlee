@@ -34,18 +34,26 @@ Our PowerBI labs are segregated into 9 labs, we suggest you do them in the follo
 
 6. Create DAX Calculations in Power BI Desktop, Part 2
 
-7. **Design a Report in Power BI Desktop, Part 1**
+7. **Create Reports in Power BI Desktop**
 
-8. Design a Report in Power BI Desktop, Part 2
+8. Create a Power BI Dashboard
 
-9. Create a Power BI Dashboard
+9. Perform Data Analysis
 
 
-### **Task 1: Get started – Open report**
+**Get Started!**
 
 1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
-	![Picture 48](Linked_image_Files/07-design-report-in-power-bi-desktop_image3.png)
+ 	![Picture 8](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image1.png)
+
+
+2. To open the previous Power BI Desktop file, click the **Open** option on the lest tab to open the backstage view.
+
+
+3. In the **Recent** section choose your latest file that you have saved.
+   
+![11](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/open%20a%20saved%20file.jpg?raw=true "11")
 
 > *NOTE:- As you keep creating the below reports , align them in the canvas by double tapping on each report and move them across the canvas.*
 
