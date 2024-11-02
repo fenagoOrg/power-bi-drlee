@@ -149,14 +149,12 @@ Our PowerBI labs are segregated into 9 labs, we suggest you do them in the follo
 ![9](https://github.com/Neha-Chiluka/power-bi-next-level/blob/master/Images/map.jpg?raw=true "9")
 
 
-### **Task 2: Finish up**
+### **Finish up**
 
 In this task you will complete the lab.
 
-1. To return to your workspace, in the banner across the window web page, click **My Workspace**.
+1. Save the Power BI Desktop file.
 
-	![Picture 99](Linked_image_Files/07-design-report-in-power-bi-desktop_image72.png)
-
-2. Leave the Microsoft Edge browser window open.
+2. If you intend to start the next lab, leave Power BI Desktop open.
 
 	*You will learn enhancing the reports and create a Superstore dashboard in the upcoming lab.*
