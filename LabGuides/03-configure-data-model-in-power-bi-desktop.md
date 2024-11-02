@@ -40,7 +40,7 @@ Our PowerBI labs are segregated into 9 labs, we suggest you do them in the follo
 
 6. Create DAX Calculations in Power BI Desktop, Part 2
 
-7. Design a Reports in Power BI Desktop
+7. Design Reports in Power BI Desktop
 
 8. Create a Power BI Dashboard
 
@@ -178,4 +178,3 @@ In this task you will complete the lab.
 2. If you intend to start the next lab, leave Power BI Desktop open.
 
 We will look into creating manual relationships between the tables( Product and Orders), creating hirarchies and data categories in the upcoming lab.
-
