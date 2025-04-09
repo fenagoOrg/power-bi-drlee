@@ -91,7 +91,7 @@ The CALENDARAUTO() function returns a single-column table consisting of date val
 
 ### **Task 2: Calculated Columns**
 
-In this task you will create calculated columns use DAX formulas.
+In this task you will create calculated columns use DAX formulas.  Go to the ORDERS table.
 
 #### Creating **Profit Category** calculated column:
 
